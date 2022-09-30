@@ -127,21 +127,36 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Content Include="db_scripts\scripts.sql" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Department.cs" />
     <Compile Include="Models\EmployeeInfoEntity.cs" />
     <Compile Include="Models\ReportParams.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\DepartmentReportViewer.aspx.cs">
+      <DependentUpon>DepartmentReportViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\DepartmentReportViewer.aspx.designer.cs">
+      <DependentUpon>DepartmentReportViewer.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Report\EmployeeReportViewer.aspx.cs">
       <DependentUpon>EmployeeReportViewer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Report\EmployeeReportViewer.aspx.designer.cs">
       <DependentUpon>EmployeeReportViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Rpt\DepartmentReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DepartmentReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Report\Rpt\EmployeeInfReport.cs">
       <AutoGen>True</AutoGen>
@@ -1289,10 +1304,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Report\DepartmentReportViewer.aspx" />
     <Content Include="Report\EmployeeReportViewer.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\DepartmentReport\DepartmentReport.js" />
     <Content Include="Scripts\EmployeeReport\EmployeeReport.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -1319,6 +1336,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Employee\EmployeeReport.cshtml" />
+    <Content Include="Views\Department\DepartmentReport.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -1337,6 +1355,10 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Report\Rpt\DepartmentReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DepartmentReport.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Report\Rpt\EmployeeInfReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>EmployeeInfReport.cs</LastGenOutput>
