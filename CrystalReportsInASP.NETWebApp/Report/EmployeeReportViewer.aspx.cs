@@ -22,10 +22,10 @@ namespace CrystalReportsInASP.NETWebApp.Report
             {
                 ReportDocument rd = new ReportDocument();
                 string path = Server.MapPath("~") + "Report\\Rpt\\" + reportParam.RptFileName;
-
                 var dataSource = reportParam.DataSource;
                 rd.Load(path);
                 rd.SetDataSource(dataSource);
+                rd.SetParameterValue("@rptName", reportParam.ReportTitle);
                 CrystalReportViewer1.ReportSource = rd;
             }
             else

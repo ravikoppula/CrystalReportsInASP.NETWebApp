@@ -24,8 +24,8 @@ namespace CrystalReportsInASP.NETWebApp.Controllers
             ReportParams<EmployeeInfoEntity> objReportParams = new ReportParams<EmployeeInfoEntity>();
 
             objReportParams.DataSource = GetAllEmployee();
+            objReportParams.ReportTitle = "Employee Info Report";
             objReportParams.RptFileName = "EmployeeInfReport.rpt";
-
             this.HttpContext.Session["ReportType"] = "EmployeeInfoReport";
             this.HttpContext.Session["ReportParam"] = objReportParams;
         }
