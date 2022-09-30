@@ -4,10 +4,10 @@ crystal report demo to download the employee informtion using crystal reports.
 ##### Envirnonment Setup
 - Install Microsoft Visual Studio 2019 Version 16.11
 - Install SQL Server Management Studio (SSMS) 18 and above
-- Download and Install <u>SAP Crystal Reports for Visual Studio (SP32) installation package for Microsoft Visual Studio IDE (VS 2019 and below)</u>
+- Download and Install [SAP Crystal Reports for Visual Studio (SP32) installation package for Microsoft Visual Studio IDE (VS 2019 and below)]
   Recommended to download from the link given [Crystal Reports for Visual Studio (SP32)](https://www.sap.com/cmp/td/sap-crystal-reports-visual-studio-trial.html).
 
-#### Download and Install the database scripts from the folder <b> db_scripts</b>
+#### Download and Install the database scripts from the folder [db_scripts]
 
 #### Cloning a repository to your local machines
  
