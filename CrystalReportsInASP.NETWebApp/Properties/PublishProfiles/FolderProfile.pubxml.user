@@ -3423,10 +3423,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>09/30/2022 14:52:49</publishTime>
+      <publishTime>09/30/2022 17:42:27</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>09/30/2022 14:52:49</publishTime>
+      <publishTime>09/30/2022 17:42:27</publishTime>
     </File>
     <File Include="bin/CrystalDecisions.CrystalReports.Design.dll">
       <publishTime>05/16/2022 19:57:40</publishTime>
@@ -3480,10 +3480,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>05/16/2022 19:57:42</publishTime>
     </File>
     <File Include="bin/CrystalReportsInASP.NETWebApp.dll">
-      <publishTime>09/30/2022 14:52:19</publishTime>
+      <publishTime>09/30/2022 17:42:14</publishTime>
     </File>
     <File Include="bin/CrystalReportsInASP.NETWebApp.pdb">
-      <publishTime>09/30/2022 14:52:19</publishTime>
+      <publishTime>09/30/2022 17:42:14</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>09/05/2018 16:10:50</publishTime>
@@ -3717,7 +3717,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/29/2022 14:28:38</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>09/30/2022 14:52:40</publishTime>
+      <publishTime>09/30/2022 17:42:19</publishTime>
+    </File>
+    <File Include="Report/DepartmentReportViewer.aspx">
+      <publishTime>09/30/2022 17:06:08</publishTime>
     </File>
     <File Include="Report/EmployeeReportViewer.aspx">
       <publishTime>09/29/2022 18:05:54</publishTime>
@@ -3727,6 +3730,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     </File>
     <File Include="Scripts/bootstrap.min.js">
       <publishTime>09/29/2022 14:28:38</publishTime>
+    </File>
+    <File Include="Scripts/DepartmentReport/DepartmentReport.js">
+      <publishTime>09/30/2022 16:57:36</publishTime>
     </File>
     <File Include="Scripts/EmployeeReport/EmployeeReport.js">
       <publishTime>09/30/2022 11:59:04</publishTime>
@@ -3764,8 +3770,11 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="Scripts/modernizr-2.8.3.js">
       <publishTime>09/29/2022 14:28:46</publishTime>
     </File>
+    <File Include="Views/Department/DepartmentReport.cshtml">
+      <publishTime>09/30/2022 16:55:40</publishTime>
+    </File>
     <File Include="Views/Employee/EmployeeReport.cshtml">
-      <publishTime>09/29/2022 18:20:14</publishTime>
+      <publishTime>09/30/2022 16:55:35</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
       <publishTime>09/29/2022 14:28:28</publishTime>
@@ -3774,13 +3783,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/29/2022 14:28:28</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/29/2022 18:20:23</publishTime>
+      <publishTime>09/30/2022 17:26:02</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>09/29/2022 14:28:28</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/29/2022 18:58:24</publishTime>
+      <publishTime>09/30/2022 17:35:53</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>09/29/2022 14:28:28</publishTime>
@@ -3789,7 +3798,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/29/2022 14:28:28</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/30/2022 14:52:20</publishTime>
+      <publishTime>09/30/2022 17:42:16</publishTime>
     </File>
   </ItemGroup>
 </Project>
